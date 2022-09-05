@@ -121,7 +121,7 @@ def load():
 
         # Import du dataframe des informations sur le dashboard
         fic_dashboard = FILE_DASHBOARD
-        with open(fic_dashboard, 'rb') as df_dashboard:
+        with gzip.open(fic_dashboard, 'rb') as df_dashboard:
             df_dashboard = pickle.load(df_dashboard)
 
         # Import du dataframe des informations sur les voisins aggrégés
