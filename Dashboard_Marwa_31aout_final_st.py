@@ -59,7 +59,7 @@ group_val4 = ['EXT_SOURCE_SUM_MEAN',
 # IMAGES
 # ====================================================================
 # Légende des courbes
-legende =  Image.open("C:\\Users\\Marwa\\Downloads\\Projet7\\images\\legende.png") 
+legende =  Image.open("legende.png") 
 
 # ====================================================================
 # HTML MARKDOWN
