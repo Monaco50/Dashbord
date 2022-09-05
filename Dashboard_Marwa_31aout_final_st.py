@@ -121,7 +121,7 @@ def load():
 
         # Import du dataframe des informations sur le dashboard
         fic_dashboard = FILE_DASHBOARD
-        with open(fic_dashboard, 'rb') as df_dashboard : 
+        with open(fic_dashboard, 'rb') as df_dashboard: 
             p = cPickle.Unpickler(f)
             df_dashboard = p.load(df_dashboard) 
             f.close()
