@@ -13,14 +13,14 @@ import shap
 
 # DATASETS
 
-FILE_BEST_MODELE = 'C:\\Users\\Marwa\\Downloads\\Projet7\\best_model.pickle'
-FILE_TEST_SET = 'C:\\Users\\Marwa\\Downloads\\Projet7\\test_fs_lightgbm_80.pickle'
-FILE_DASHBOARD = 'C:\\Users\\Marwa\\Downloads\\Projet7\\dashboard\\df_dashboard.pickle'
-FILE_CLIENT_INFO = 'C:\\Users\\Marwa\\Downloads\\Projet7\\dashboard\\df_info_client.pickle'
-FILE_CLIENT_PRET = 'C:\\Users\\Marwa\\Downloads\\Projet7\\dashboard\\df_pret_client.pickle'
-FILE_VOISINS_INFO = 'C:\\Users\\Marwa\\Downloads\\Projet7\\dashboard\\df_info_voisins.pickle'
-FILE_VOISIN_AGG = 'C:\\Users\\Marwa\\Downloads\\Projet7\\dashboard\\df_voisin_train_agg.pickle'
-FILE_ALL_TRAIN_AGG = 'C:\\Users\\Marwa\\Downloads\\Projet7\\dashboard\\df_all_train_agg.pickle'
+FILE_BEST_MODELE = 'best_model.pickle'
+FILE_TEST_SET = 'test_fs_lightgbm_80.pickle'
+FILE_DASHBOARD = 'df_dashboard.pickle'
+FILE_CLIENT_INFO = 'df_info_client.pickle'
+FILE_CLIENT_PRET = 'df_pret_client.pickle'
+FILE_VOISINS_INFO = 'df_info_voisins.pickle'
+FILE_VOISIN_AGG = 'df_voisin_train_agg.pickle'
+FILE_ALL_TRAIN_AGG = 'df_all_train_agg.pickle'
 
 # ====================================================================
 # VARIABLES
