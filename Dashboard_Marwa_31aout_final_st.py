@@ -123,7 +123,8 @@ def load():
         fic_dashboard = FILE_DASHBOARD
         with open(fic_dashboard, 'rb') as df_dashboard : 
             p = cPickle.Unpickler(f)
-            df_dashboard = p.load(df_dashboard) f.close()
+            df_dashboard = p.load(df_dashboard) 
+            f.close()
 
         # Import du dataframe des informations sur les voisins aggrégés
         fic_voisin_train_agg = FILE_VOISIN_AGG
