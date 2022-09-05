@@ -15,7 +15,7 @@ import shap
 
 FILE_BEST_MODELE = 'best_model.pickle'
 FILE_TEST_SET = 'test_fs_lightgbm_80.pickle'
-FILE_DASHBOARD = 'df_dashboard.pickle'
+FILE_DASHBOARD = 'df_dashboard_t.pickle'
 FILE_CLIENT_INFO = 'df_info_client.pickle'
 FILE_CLIENT_PRET = 'df_pret_client.pickle'
 FILE_VOISINS_INFO = 'df_info_voisins.pickle'
@@ -121,8 +121,8 @@ def load():
 
         # Import du dataframe des informations sur le dashboard
         fic_dashboard = FILE_DASHBOARD
-        with open(fic_dashboard, 'rb') as df_dashboard: 
-            df_dashboard = pickle.load(df_dashboard) 
+        with open(fic_dashboard, 'rb') as df_dashboard_t: 
+            df_dashboard = pickle.load(df_dashboard_t) 
 
         # Import du dataframe des informations sur les voisins aggrégés
         fic_voisin_train_agg = FILE_VOISIN_AGG
